@@ -57,8 +57,7 @@ validation:
   timezone: "O :attribute deve ser um fuso horário."
   unique: "O :attribute já existe."
   url: "O formato do :attribute é inválido."
-  uploaded: "O upload do :attribute falhou."	  url: "O formato do :attribute é inválido."
-  url: "O formato do :attribute não é válido."
+  uploaded: "O upload do :attribute falhou."
 
   attributes:
     username: nome de utilizador
