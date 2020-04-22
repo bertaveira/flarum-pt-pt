@@ -2,31 +2,31 @@ fof-linguist:
     admin:
         menu:
             title: Linguist
-            description: Customize translations.
+            description: Customizar Traduções.
         buttons:
-            apply: Apply
-            reset: Restore original
-            copy-original: Copy original text
-            load-more: Load more
+            apply: Aplicar
+            reset: Restaurar original
+            copy-original: Copiar texto original
+            load-more: carregar mais
         locales:
-            all: All
+            all: Todos
         placeholder:
-            not-translated: Not translated
-            all-locales: A text defined here will be shown in all languages
+            not-translated: Não Traduzido
+            all-locales: Um texto definido aqui vai ser mostrado em todas as linguas
             hint: Original value:
         filters:
-            search: Search translation strings...
-            with-own-translations: My translations
-            with-original-translations-in-locales: With original translations in
-            without-original-translations-in-locales: Without original translations in
-            for-extension: For extension
+            search: Procurar textos de tradução...
+            with-own-translations: As minha traduções
+            with-original-translations-in-locales: Com tradução original em
+            without-original-translations-in-locales: Sem tradução original em
+            for-extension: Para Extensão
             for-extension-unavailable: >
                 No translations were found in the expected namespace "{namespace}".
                 Maybe this extension doesn't have any text to translate or is using a different namespace.
                 Try using the search field to locate its translations.
-            results: Showing {shown} of {total} matching translations
+            results: A mostrar {shown} de {total} traduções correspondentes
         clear-cache:
             text: >
-                New translations have not yet been applied.
-                Note: clearing the cache can momentarily slow down your forum.
-            button: Clear cache now
+                Nova tradução ainda não foi aplicada.
+                Nota: limpar a cache pode atrasar momentaniamente o seu forum.
+            button: Limpar cache agora
