@@ -1,4 +1,4 @@
-  validation:
+validation:
   accepted: "O :attribute deve ser aceito."
   active_url: "O :attribute Não é uma URL válida."
   after: "O :attribute deve ser uma data após :date."
@@ -57,12 +57,16 @@
   timezone: "O :attribute deve ser um fuso horário."
   unique: "O :attribute já existe."
   url: "O formato do :attribute é inválido."
+  uploaded: "O upload do :attribute falhou."	  url: "O formato do :attribute é inválido."
+  url: "O formato do :attribute não é válido."
 
   attributes:
-    username: nome de usuário
-    password: senha
+    username: nome de utilizador
+    password: palavra-pass
     email: email
     title: título
     content: conteúdo
     name_singular: nome singular
     name_plural: nome plural
+    tag_count_primary: número de tags primárias
+    tag_count_secondary: número de tags secundárias
