@@ -18,6 +18,8 @@ flarum-tags:
       delete_tag_button: Apagar Tag
       delete_tag_confirmation: "Você tem certeza que deseja apagar esta tag? As discussões da tag NÃO serão apagadas."
       hide_label: Esconder de Todos os Tópicos
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
@@ -42,7 +44,7 @@ flarum-tags:
       required_primary_text: Entre com o número mínimo e máximo de tags primárias que podem ser aplicadas à uma tópicos.
       required_secondary_heading: Número Exigido de Tags Secundárias
       required_secondary_text: Entre com o número mínimo e máximo de tags secundárias que podem ser aplicadas à uma tópicos.
-      title: Configurações de Tag 
+      title: Configurações de Tag
 
     # These strings are used in the Tags page.
     tags:
@@ -70,6 +72,9 @@ flarum-tags:
     # These strings are used by the discussion control buttons.
     discussion_controls:
       edit_tags_button: Editar Tags
+
+    header:
+      back_to_tags_tooltip: Voltar à lista de Tags
 
     # These strings are used on the index page, peripheral to the discussion list.
     index:
