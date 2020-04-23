@@ -1,17 +1,40 @@
-# Flarum Portuguese language pack (pt-PT)
+# Portuguese Language Pack (pt-PT)
 
-This was forked form the original creator and updated. Chek the original abandoned repo: https://github.com/lcbcruz/flarum-portuguese
+![taty_flag.bin](https://i.imgur.com/TQXwYoj.png)
 
-More info on Flarum here: https://discuss.flarum.org
+Flarum Discussion: https://discuss.flarum.org/d/23517-portuguese-language-pack-pt-pt
 
-Complete; Flarum version 0.1.0-beta12. Portuguese (Portugal) language pack. Português (Portugal), pt-PT
+This is based on the old abandoned Portuguese form Portugal language pack from lcbcruz (link [here](https://discuss.flarum.org/d/5335-portuguese-portugal-language-extension)). That language pack gives errors and has been abandoned since before I joined on beta 7 so I corrected the error updated it and added a lot more translations and extensions support.
 
-## Installation:
+## Compatibility
 
-### Using composer (recommended):
+This language pack was tested with the **flarum 0.1.0-beta.12** but should work with most versions.
 
-Flarum use Composer to manage its dependencies and extensions. The Portuguese language pack is available on Packagist and can be managed that way. Make sure that Composer is installed on your machine, then run the following command in the location where Flarum is installed:
+## Installation
 
-`composer require bertaveira/flarum-pt-pt`
+It is recommended to install via composer:
 
-The same command can be used to update independently the Portuguese language pack, without updating anything else. Note that because the Portuguese language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.
+```
+composer require bertaveira/flarum-pt-pt
+```
+
+## Update
+
+```
+composer update bertaveira/flarum-pt-pt
+php flarum cache:clear
+```
+
+## Contribute
+
+<img src="https://i.imgur.com/zNiHvcp.jpg" alt="hide_the_pain.exe" style="zoom:50%;" />
+
+I tried to translate as much as possible and as many extensions as possible. Some extensions are incomplete and have text in English because it was either impossible for me to find a good translation or I didn't had the patience to do so at this moment. 
+
+Feel free to add more translations and make pull requests. I'll review them, teste them and add them to this repo and to the Packgist so everyone can use it.
+
+### Links
+
+- [Flarum Discussion](https://discuss.flarum.org/d/23517-portuguese-language-pack-pt-pt)
+- [Report an Issue](https://github.com/bertaveira/flarum-pt-pt/issues)
+- [Download via Packagist](https://packagist.org/packages/bertaveira/flarum-pt-pt)
