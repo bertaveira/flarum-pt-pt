@@ -27,7 +27,7 @@ php flarum cache:clear
 
 ## Contribute
 
-<img src="https://i.imgur.com/zNiHvcp.jpg" alt="hide_the_pain.exe" width="400"/>
+<img src="https://i.imgur.com/zNiHvcp.jpg" alt="hide_the_pain.exe" width="400" align="center"/>
 
 I tried to translate as much as possible and as many extensions as possible. Some extensions are incomplete and have text in English because it was either impossible for me to find a good translation or I didn't had the patience to do so at this moment. 
 
