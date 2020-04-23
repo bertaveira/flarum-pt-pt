@@ -27,11 +27,11 @@ php flarum cache:clear
 
 ## Contribute
 
-<img src="https://i.imgur.com/zNiHvcp.jpg" alt="hide_the_pain.exe" width="400" align="middle"/>
-
 I tried to translate as much as possible and as many extensions as possible. Some extensions are incomplete and have text in English because it was either impossible for me to find a good translation or I didn't had the patience to do so at this moment. 
 
 Feel free to add more translations and make pull requests. I'll review them, teste them and add them to this repo and to the Packgist so everyone can use it.
+
+<div style="text-align:center"><img src="https://i.imgur.com/zNiHvcp.jpg" alt="hide_the_pain.exe" width="400" /></div>
 
 ### Links
 
