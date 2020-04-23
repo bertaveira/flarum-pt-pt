@@ -265,7 +265,7 @@ core:
       set_password_label: Criar nova password
       submit_button: => core.ref.save_changes
       title: Editar Utilizador
-      username_heading: => core.ref.username P
+      username_heading: => core.ref.username
       username_label: => core.ref.username
     forgot_password:
       dismiss_button: => core.ref.okay
